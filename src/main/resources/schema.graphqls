@@ -1,0 +1,8 @@
+type Query {
+    foo(id: ID): String
+    piyo(id: ID): String
+}
+
+type Mutation {
+    bar(id: ID): String
+}

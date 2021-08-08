@@ -1,0 +1,13 @@
+graphql:
+  servlet:
+    enabled: true
+    mapping: /graphql
+    exception-handlers-enabled: true
+    websocket:
+      enabled: false
+    actuator-metrics: true
+    tracing-enabled: false
+  tools:
+    schema-location-pattern: "**/*.graphqls"
+altair:
+  enabled: true
