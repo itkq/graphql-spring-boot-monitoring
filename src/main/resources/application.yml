@@ -11,3 +11,10 @@ graphql:
     schema-location-pattern: "**/*.graphqls"
 altair:
   enabled: true
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      base-path: /
+      exposure:
+        include: health,prometheus
